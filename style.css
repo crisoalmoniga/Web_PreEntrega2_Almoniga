@@ -64,8 +64,8 @@ section {
     width: 90%; 
     max-width: 900px; 
     height: auto; /* Cuidado, es el que mantiene la proporción */
-    margin: 20px auto; /* Centrado */
-    display: block; /* Línea independiente */
+    margin: 20px auto; 
+    display: block; 
     border: 2px solid #ddd; 
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
@@ -417,7 +417,7 @@ form {
     color: #333; 
 }
 
-.experiencias div { /*Es lo que maneja la orientacion de las columnas*/
+.experiencias div { /*Para replicar luego: Es lo que maneja la orientacion de las columnas*/
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center; 

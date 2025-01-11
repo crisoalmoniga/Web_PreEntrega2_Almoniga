@@ -525,62 +525,54 @@ form {
 
 /* Estructura Contenido */
 .intro-contenido {
-    text-align: center;
+    background-color: #f7eeaa;
     padding: 40px 20px;
-    background-color: #eaeef3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .intro-contenido h1 {
     font-size: 32px;
-    margin-bottom: 10px;
+    color: #212529;
 }
 
 .intro-contenido h3 {
     font-size: 18px;
     color: #555;
-    margin-bottom: 20px;
 }
 
-.intro-contenido img {
-    max-width: 150px;
-    height: auto;
-    margin: 20px auto;
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.podcast-estructura {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 40px 20px;
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
 }
 
-.podcast-item {
-    background-color: #ffffff;
+.card-body {
     padding: 20px;
-    text-align: center;
 }
 
-.podcast-item img {
-    width: 100px;
-    height: auto;
-    margin-bottom: 10px;
+.card-title {
+    font-size: 18px;
+    color: #333;
 }
 
-.podcast-item p {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 10px;
+.btn-primary {
+    background-color: #6c63ff;
+    border-color: #6c63ff;
 }
 
-.podcast-item .boton-CTA {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #e600ff;
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
+.btn-primary:hover {
+    background-color: #5548d6;
+    border-color: #5548d6;
 }
+
 .texto-formulario {
     display: flex;
     justify-content: space-between;

@@ -33,7 +33,7 @@
     transition: color 0.3s ease-in-out;
 }
 
-/*Textos*/
+/*Textos Index*/
 
 h1 {
     text-align: center
@@ -361,24 +361,24 @@ form {
     gap: 15px;
 }
 
-/* Nuestro Trabajo */
+/* Estructura de Nuestro Trabajo */
 .intro-trabajos {
     padding: 40px 20px;
-    background-color: #f7eeaa; /* Color amarillo */
+    background-color: #f7eeaa; 
     text-align: center;
     margin-bottom: 20px;
-    border-radius: 10px; /* Opcional: redondear bordes */
+    border-radius: 10px; 
 }
 
 .intro-trabajos h1 {
     font-size: 32px;
     margin-bottom: 10px;
-    color: #212529; /* Mismo color de texto usado en "Servicios" */
+    color: #212529; 
 }
 
 .intro-trabajos h3 {
     font-size: 18px;
-    color: #555; /* Subtítulo con estilo más sutil */
+    color: #555; 
 }
 
 
@@ -389,12 +389,12 @@ form {
 
 .experiencias img {
     width: 100%;
-    max-width: 300px; /* Tamaño máximo */
-    height: auto; /* Mantiene la proporción de la imagen */
-    object-fit: cover; /* Recorta la imagen si es necesario */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    margin: 0 auto; /* Centra las imágenes */
+    max-width: 300px; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto; 
 }
 
 
@@ -424,16 +424,20 @@ form {
     gap: 20px; 
 }
 
-/*Estructura acerca de nosotros*/ 
+/* Estructura Acerca de */
+
 .intro-acerca {
     text-align: center;
     padding: 40px 20px;
-    background-color: #eaeef3;
+    background-color: #f7eeaa;
+    border-radius: 10px;
+    margin-bottom: 40px;
 }
 
 .intro-acerca h1 {
     font-size: 32px;
     margin-bottom: 10px;
+    color: #212529;
 }
 
 .intro-acerca h3 {
@@ -442,14 +446,15 @@ form {
     margin-bottom: 20px;
 }
 
-.intro-acerca img {
-    max-width: 150px;
-    height: auto;
-    margin: 20px auto;
-}
 .nuestra-historia {
     padding: 40px 20px;
     background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 40px; 
+    max-width: 800px; 
+    text-align: center; 
+    line-height: 1.8; 
 }
 
 .nuestra-historia h4 {
@@ -461,6 +466,11 @@ form {
 .nuestra-historia p {
     font-size: 16px;
     color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    margin: auto;
+    padding: 20px;
+   
 }
 
 .equipo {
@@ -478,6 +488,7 @@ form {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .equipo .integrante {
@@ -487,6 +498,8 @@ form {
 
 .equipo img {
     width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
 }
 
@@ -499,14 +512,18 @@ form {
     padding: 20px;
     background-color: #f2f2f2;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .frase-motivacional-equipo p {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
+    font-style: italic;
 }
 
+/* Estructura Contenido */
 .intro-contenido {
     text-align: center;
     padding: 40px 20px;

@@ -11,8 +11,32 @@
 
 h1 {
     text-align: center
-
 }
+
+h1, h2, h3 {
+    color: #212529;
+}
+
+.btn-primary {
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+}
+
+.btn-primary:hover {
+    background-color: #5548d6;
+    border-color: #5548d6;
+}
+
+section {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
 .contenedor-servicios {
     display: flex;
     justify-content: space-around; 
@@ -24,6 +48,7 @@ p {
     color: blueviolet;
     font-size: 19px;
     margin: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     }
 
 body { 
@@ -203,7 +228,7 @@ form {
     color: #333;
 }
 .experiencias div {
-    display: grid; /* Utilicé esta forma para hacer cuadrícula, creo que no es la correcta porque lo que quiero hacer es un slide */
+    display: grid; 
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
 }
